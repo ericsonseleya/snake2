@@ -2,7 +2,7 @@ const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 const restartButton = document.getElementById('restartButton');
 
-const cellSize = 10;
+const cellSize = 20;
 let score = 0;
 let snake = [
   { x: 300, y: 300 },
